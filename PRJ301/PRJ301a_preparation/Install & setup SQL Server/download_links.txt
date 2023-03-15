@@ -1,0 +1,17 @@
+========== DOWNLOAD ===============================================
+Download Sql-server (SQL Server Configuration Manager):
+https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+Downloaded file: SQL2019-SSEI-Dev.exe or SQL2019-SSEI-Expr.exe
+
+Download SQL Server Management Studio (SSMS):
+https://docs.microsoft.com/vi-vn/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+Downloaded file: SSMS-Setup-ENU.exe
+
+========== INSTALLATION ============================================
+(1) SQL-server
+Run file SQL2019-SSEI-Expr.exe or SQL2019-SSEI-Dev.exe
+
+(2) SSMS
+Run file SSMS-Setup-ENU.exe
+
+ 

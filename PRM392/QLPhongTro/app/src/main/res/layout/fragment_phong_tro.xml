@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment.PhongTroFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/revPhongTro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnThemPhongTro"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_add_circle_outline_24"/>
+
+    </RelativeLayout>
+</layout>

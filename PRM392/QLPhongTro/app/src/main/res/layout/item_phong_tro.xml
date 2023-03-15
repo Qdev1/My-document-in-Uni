@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_gradient2"
+    android:orientation="vertical"
+    android:id="@+id/ln_box">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvSoPhong"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Số phòng: "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvYeuCauDatPhong"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarSize="30dp"
+            android:background="@color/black"
+            android:layout_margin="10dp"
+            android:textColor="@color/cl_vang"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Yêu cầu đặt phòng"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNgayThue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Ngày thuê: "
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ln_DP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTienPhong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Tiền Phòng: "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTienDien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Tiền điện: "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvDatPhong"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarSize="30dp"
+            android:background="@color/black"
+            android:layout_margin="10dp"
+            android:textColor="@color/cl_vang"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Đặt phòng"
+            />
+        <TextView
+            android:id="@+id/tvHuyDatPhong"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarSize="30dp"
+            android:background="@color/black"
+            android:layout_margin="10dp"
+            android:textColor="@color/cl_vang"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Hủy đặt phòng"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTienNuoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Tiền nước: "
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Số ĐT: "
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lnBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tvSuaPhongTro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarSize="30dp"
+            android:background="@color/black"
+            android:textColor="@color/cl_vang"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="Sửa" />
+
+        <TextView
+            android:id="@+id/tvXoaPhongTro"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarSize="30dp"
+            android:background="@color/black"
+            android:layout_margin="10dp"
+            android:textColor="@color/cl_vang"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Xóa" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvXacNhanTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="30dp"
+        android:background="@color/black"
+        android:textColor="@color/cl_vang"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="Xác nhận đã nhận tiền cọc"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SE1515-NET Application</string>
+    <string-array name="campus_array">
+        <item>Ho Chi Minh</item>
+        <item>Ha Noi</item>
+        <item>Can Tho</item>
+        <item>Da Nawg</item>
+    </string-array>
+    <string name="notification_title">Notification Demo</string>
+    <string name="notification_content">Notification content : Please tap on</string>
+</resources>

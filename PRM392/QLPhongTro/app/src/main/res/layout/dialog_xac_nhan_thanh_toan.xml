@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+        android:id="@+id/tvSoTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số tài khoản: 123456789"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvTenNH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngân hàng: VietComBank"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvTenTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chủ tài khoản: Nguyễn Văn A"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:text="Nội dung: Họ và tên + số phòng + số điện thoại"/>
+
+    <TextView
+        android:id="@+id/tvChuyenTien"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="30dp"
+        android:background="@color/black"
+        android:textColor="@color/cl_vang"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Xác nhận đã chuyển"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

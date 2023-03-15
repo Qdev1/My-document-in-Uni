@@ -1,0 +1,3 @@
+[autorun]
+OPEN=PLAY.EXE "playlist.m3u"
+ICON=PLAY.EXE,1

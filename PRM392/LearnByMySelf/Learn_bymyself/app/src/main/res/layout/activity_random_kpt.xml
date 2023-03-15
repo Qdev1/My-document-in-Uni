@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomKPT">
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Nhap so thu 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext1"
+        android:layout_alignParentEnd="@id/edittext1"
+        android:layout_alignParentRight="@id/edittext1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Nhap so thu 2"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/buttonRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Random" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRandom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborder"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="20dp"
+    android:padding="10dp">
+    <EditText
+        android:id="@+id/edtSTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số tài khoản"
+        android:textColor="@color/black"
+        android:textColorHint="#7E7E7E"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/edtTenSTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên chủ tài khoản"
+        android:textColor="@color/black"
+        android:textColorHint="#7E7E7E"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/edtTenNH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên ngân hàng"
+        android:textColor="@color/black"
+        android:textColorHint="#7E7E7E"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FA6D04"
+        android:text="Xác nhận"
+        android:textColor="@color/black" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myempty2application">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyEmpty2Application"
+        tools:targetApi="31">
+        <service android:name=".service.DemoIntentService" android:exported="false"/>
+        <service
+            android:name=".service.MyIntentService"
+            android:exported="false"></service>
+
+        <activity
+            android:name=".PostListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <provider
+            android:name=".provider.DemoContentProvider"
+            android:authorities="com.example.myempty2application.provider.DemoContentProvider"
+            android:exported="true"
+            android:multiprocess="true" />
+
+        <activity
+            android:name=".CreateAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationMessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddressListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="Your key here" />
+    </application>
+
+</manifest>

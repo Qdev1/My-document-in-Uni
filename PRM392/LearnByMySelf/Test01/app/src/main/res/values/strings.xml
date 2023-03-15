@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test01</string>
+    <string-array name="campus">
+        <item>Hà Nội</item>
+        <item>TP Hồ Chí Minh</item>
+        <item>Đà Nẵng</item>
+        <item>Cần Thơ</item>
+    </string-array>
+</resources>

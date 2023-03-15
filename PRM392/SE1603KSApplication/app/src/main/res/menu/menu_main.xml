@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_setting"/>
+    <item
+        android:id="@+id/menu_favorite"
+        android:title="Favourite"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_favourite"/>
+    <item
+        android:id="@+id/menu_account"
+        android:title="Account"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_account"/>
+    <item
+        android:id="@+id/menu_request_location"
+        android:title="Request Location"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_account"/>
+    <item
+        android:id="@+id/menu_send_notify"
+        android:title="Send Notification"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_account"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_logout"/>
+</menu>

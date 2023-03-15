@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:id="@+id/lnTaiKhoan"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvTenNguoiThue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên: "
+        android:textColor="@color/cl_vang"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvSDTNguoiThue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SĐT: "
+        android:textColor="@color/cl_vang"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/tvTenDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username: "
+        android:textColor="@color/cl_vang"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/tvQueQuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quê quán: "
+        android:textColor="@color/cl_vang"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày Sinh: "
+        android:textColor="@color/cl_vang"
+        android:textSize="25dp" />
+
+</LinearLayout>

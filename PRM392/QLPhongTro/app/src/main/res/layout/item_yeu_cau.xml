@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_gradient2">
+
+    <LinearLayout
+        android:id="@+id/ln_YC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvSoDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="SDT người thuê: "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSoPhong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Số phòng: "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvXacNhan"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarSize="30dp"
+            android:background="@color/black"
+            android:layout_margin="10dp"
+            android:textColor="@color/cl_vang"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Xác nhận"
+            />
+    </LinearLayout>
+
+</LinearLayout>
